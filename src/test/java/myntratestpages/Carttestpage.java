@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import basefile.Testbase;
-import junit.framework.Assert;
+
 import myntrapages.Cartpage;
 import myntrapages.Categorypage;
 import myntrapages.Checkoutaddress;

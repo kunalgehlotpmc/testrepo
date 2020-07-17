@@ -3,14 +3,23 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="myntratestpages.Categorytestpage">
+      <class name="myntratestpages.Homepagetest">
         <methods>
-          <include name="setup"/>
-          <include name="similarproducts"/>
-          <include name="productcount"/>
+          <include name="title"/>
+          <include name="womencategory"/>
+          <include name="clickwishlist"/>
+          <include name="clickbag"/>
           <include name="quit"/>
+          <include name="logo"/>
+          <include name="setup"/>
+          <include name="selectcategory"/>
+          <include name="loginbuttonclick"/>
+          <include name="adv"/>
+          <include name="mencategory"/>
+          <include name="referbuttonclick"/>
+          <include name="searchsuggestio"/>
         </methods>
-      </class> <!-- myntratestpages.Categorytestpage -->
+      </class> <!-- myntratestpages.Homepagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
