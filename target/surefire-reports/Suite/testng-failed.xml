@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="myntratestpages.Producttestpage">
+        <methods>
+          <include name="quit"/>
+          <include name="emiplan"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- myntratestpages.Producttestpage -->
+      <class name="myntratestpages.Categorytestpage">
+        <methods>
+          <include name="setup"/>
+          <include name="similarproducts"/>
+          <include name="productcount"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- myntratestpages.Categorytestpage -->
+      <class name="myntratestpages.Carttestpage">
+        <methods>
+          <include name="applyinvalidcoupon"/>
+          <include name="clickremovebutton"/>
+          <include name="placeorder"/>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- myntratestpages.Carttestpage -->
+      <class name="myntratestpages.Homepagetest">
+        <methods>
+          <include name="quit"/>
+          <include name="setup"/>
+          <include name="referbuttonclick"/>
+        </methods>
+      </class> <!-- myntratestpages.Homepagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
